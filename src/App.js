@@ -1,7 +1,12 @@
-import style from './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import './App.css';
 
 function App() {
-  return <div className="App">Future project</div>;
+  return (
+    <BrowserRouter>
+      <div className="App">Future project</div>;
+    </BrowserRouter>
+  );
 }
 
 export default App;
