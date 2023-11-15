@@ -2,7 +2,13 @@
   text-align: center;
 }
 
-.active {
+/* Used by defoult with NavLink */
+/* .active {
+  color: lightyellow;
+  text-decoration: none;
+} */
+
+.activeLink {
   color: lightyellow;
   text-decoration: none;
 }
