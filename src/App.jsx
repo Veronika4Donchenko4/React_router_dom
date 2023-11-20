@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Contacts from './components/Contacts';
 import NotFound from './components/NotFound';
+import Courses from './components/Courses';
 import './App.css';
 import MainLayout from './layouts/MainLayout';
 import Home from './components/Home';
@@ -16,6 +17,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
             <Route path="about" element={<About />} />
             <Route path="contacts" element={<Contacts />} />
+            <Route path="courses" element={<Courses />} />
           </Route>
         </Routes>
       </div>

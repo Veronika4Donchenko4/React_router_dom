@@ -4,13 +4,31 @@ const Menu = () => {
   return (
     <nav>
       <NavLink
-        className={({ isActive }) => (isActive ? 'activeLink' : 'link')}
-        to="."
+        style={({ isActive }) =>
+          isActive ? { color: 'lightyellow', textDecoration: 'none' } : {}
+        }
+        to="/"
       >
         Home
       </NavLink>
-      <NavLink to="/about">About</NavLink>
-      <NavLink to="/contacts">Contacts</NavLink>
+      <NavLink
+        className={({ isActive }) => (isActive ? 'activeLink' : 'link')}
+        to="/about"
+      >
+        About
+      </NavLink>
+      <NavLink
+        className={({ isActive }) => (isActive ? 'activeLink' : 'link')}
+        to="/contacts"
+      >
+        Contacts
+      </NavLink>
+      <NavLink
+        className={({ isActive }) => (isActive ? 'activeLink' : 'link')}
+        to="/courses"
+      >
+        Courses
+      </NavLink>
     </nav>
   );
 };

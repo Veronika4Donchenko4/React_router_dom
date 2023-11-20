@@ -20,3 +20,5 @@ const courses = [
     id: 298,
   },
 ];
+
+export default courses
