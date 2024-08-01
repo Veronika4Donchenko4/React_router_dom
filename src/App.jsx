@@ -3,9 +3,10 @@ import About from './components/About';
 import Contacts from './components/Contacts';
 import NotFound from './components/NotFound';
 import Courses from './components/Courses';
-import './App.css';
 import MainLayout from './layouts/MainLayout';
 import Home from './components/Home';
+import SingleCourse from './components/SingleCourse';
+import './App.css';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="contacts" element={<Contacts />} />
             <Route path="courses" element={<Courses />} />
+            <Route path="courses/:slug" element={<SingleCourse />} />
           </Route>
         </Routes>
       </div>

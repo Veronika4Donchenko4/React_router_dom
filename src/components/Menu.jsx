@@ -8,6 +8,7 @@ const Menu = () => {
           isActive ? { color: 'lightyellow', textDecoration: 'none' } : {}
         }
         to="/"
+        end
       >
         Home
       </NavLink>
