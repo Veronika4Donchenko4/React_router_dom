@@ -2,12 +2,12 @@ const courses = [
   {
     title: 'Complete Js Guide',
     slug: 'js',
-    id: 257,
+    id: 300,
   },
   {
     title: 'Complete React Guide',
     slug: 'react',
-    id: 876,
+    id: 809,
   },
   {
     title: 'Complete Node.js Guide',
@@ -15,7 +15,7 @@ const courses = [
     id: 285,
   },
   {
-    title: 'Complete Python Guide',
+    title: 'Complete Python',
     slug: 'python',
     id: 298,
   },
