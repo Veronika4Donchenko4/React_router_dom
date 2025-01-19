@@ -1,7 +1,7 @@
 const courses = [
   {
     title: 'Complete Js Guide',
-    slug: 'js',
+    slug: 'JS',
     id: 300,
   },
   {
